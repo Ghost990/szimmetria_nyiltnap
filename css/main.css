@@ -6288,5 +6288,67 @@ body {
     font-size: 42px !important; }
   .header .header__content .logo {
     margin: 0 auto;
-    width: 250px;
-    height: 240px; }
+    width: 100px;
+    height: 80px; }
+  .header .header__content .mainlogo {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%; }
+
+.form-wrapper {
+  background: #445658;
+  padding: 50px;
+  margin: 15px 0;
+  border-radius: 3px;
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.15); }
+
+.parallax-img {
+  position: absolute;
+  top: 50%;
+  z-index: -1; }
+
+.ribbon {
+  font-size: 16px !important;
+  /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+  width: 400px;
+  position: relative;
+  background: #445658;
+  color: #fff;
+  text-align: center;
+  padding: 1em 2em;
+  /* Adjust to suit */
+  margin: 30px 0; }
+
+.ribbon:before, .ribbon:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  border: 1.5em solid #344547;
+  z-index: -1; }
+
+.ribbon:before {
+  left: -2em;
+  border-right-width: 1.5em;
+  border-left-color: transparent; }
+
+.ribbon:after {
+  right: -2em;
+  border-left-width: 1.5em;
+  border-right-color: transparent; }
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: #2b393b transparent transparent transparent;
+  bottom: -1em; }
+
+.ribbon .ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em; }
+
+.ribbon .ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0; }
