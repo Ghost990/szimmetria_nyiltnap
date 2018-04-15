@@ -1,0 +1,31 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+body {
+    min-height: 100vh;
+    color: white;
+    background: rgba(255,90,90,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,90,90,1) 0%, rgba(65,0,0,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,90,90,1)), color-stop(100%, rgba(65,0,0,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,90,90,1) 0%, rgba(65,0,0,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,90,90,1) 0%, rgba(65,0,0,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,90,90,1) 0%, rgba(65,0,0,1) 100%);
+background: radial-gradient(ellipse at center, rgba(255,90,90,1) 0%, rgba(65,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5a5a', endColorstr='#410000', GradientType=1 );
+font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    .header__content {
+        padding: 50px 0;
+        text-align: center; 
+        h1 {
+            font-weight: 800 !important;
+            font-size: 42px !important;
+        }
+        .logo {
+            margin: 0 auto;
+            width: 250px;
+            height: 240px;
+        }
+    }
+}

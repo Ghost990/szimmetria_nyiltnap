@@ -1,0 +1,24 @@
+{
+  "name": "szimmetria_nyiltnap",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".postcssrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/ghost990/szimmetria_nyiltnap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ghost990/szimmetria_nyiltnap#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0"
+  }
+}
